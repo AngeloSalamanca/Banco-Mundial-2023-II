@@ -10,6 +10,40 @@ body{
     text-align: center;
 }
 
+.container-principal{
+    size: 800px, 600px;
+}
+
 #btn-transaccion{
     border-radius: 10px 0px 10px 0px;
+}
+
+.container-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-i{
+    display: grid;
+}
+.btn-d{
+    display: grid;
+}
+
+#btn-retiro{
+    border-radius: 0px 0px 0px 10px;
+}
+#btn-saldo{
+    border-radius: 0px 0px 0px 10px;
+}
+
+#btn-clave{
+    border-radius: 0px 10px 0px 0px;
+}
+#btn-otros{
+    border-radius: 0px 10px 0px 0px;
+}
+#btn-cancelar{
+    border-radius: 0px 10px 0px 0px;
 }
