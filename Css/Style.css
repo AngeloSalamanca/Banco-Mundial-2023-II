@@ -25,6 +25,9 @@ body{
 #btn-transaccion{
     border-radius: 10px 0px 10px 0px;
 }
+#btn-continuar{
+    border-radius: 10px 0px 10px 0px;
+}
 
 .container-main{
     display: flex;
