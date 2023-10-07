@@ -2,46 +2,55 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="Css/Style.css">
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="icon" href="Img/AS.ico">
+    <link rel="stylesheet" href="Css/Style.css" />
     <title>Operaciones</title>
 </head>
-<header>
-
-</header>
-
+<header></header>
 <body>
     <div class="container-operaciones">
         <div class="container-main">
-            <img src="img/Logo.PNG" alt="Logo Banco Mundial">
-            <br>
-            <p id="p-operaciones">El banco Mundial tiene un conjunto de servicios a sus disposición. Seleccione la opción de
-                transacción que desea retirar</p>
+            <img src="img/Logo.PNG" alt="Logo Banco Mundial" />
+            <br />
+            <p id="p-operaciones">
+                El banco Mundial tiene un conjunto de servicios a sus disposición.
+                Seleccione la opción de transacción que desea retirar
+            </p>
         </div>
+        <br />
         <div class="btn-operaciones">
             <div class="btn-i float-start">
-                <button type="button" class="btn btn-primary" id="btn-retiro">Realizar retiro</button>
-                <br>
-                <br>
-                <button type="button" class="btn btn-primary" id="btn-saldo">Consultar saldo</button>
+                <button type="button" class="btn btn-primary" id="btn-retiro" onclick="location.href='Retiro.html'">
+                    Realizar retiro
+                </button>
+                <br />
+                <br />
+                <button type="button" class="btn btn-primary" id="btn-saldo">
+                    Consultar saldo
+                </button>
             </div>
             <div class="btn-d float-end">
-                <button type="button" class="btn btn-primary" id="btn-clave">Cambiar clave</button>
-                <br>
-                <br>
-                <button type="button" class="btn btn-primary" id="btn-otros">Otras servicios</button>
-                <br>
-                <br>
-                <button type="button" class="btn btn-secondary" id="btn-cancelar" onclick="location.href='Index.html'">Cancelar</button>
+                <button type="button" class="btn btn-primary" id="btn-clave">
+                    Cambiar clave
+                </button>
+                <br />
+                <br />
+                <button type="button" class="btn btn-primary" id="btn-otros">
+                    Otros servicios
+                </button>
+                <br />
+                <br />
+                <button type="button" class="btn btn-secondary" id="btn-cancelar" onclick="location.href='Index.html'">
+                    Cancelar
+                </button>
             </div>
         </div>
     </div>
 </body>
-<footer>
-
-</footer>
+<footer></footer>
 
 </html>
